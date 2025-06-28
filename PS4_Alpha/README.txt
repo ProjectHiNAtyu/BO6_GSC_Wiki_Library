@@ -6,4 +6,5 @@ Please research how to Jailbreak your PS4 and obtain the BO6 Alpha Build on your
 Additionally, compile this source code using Atian Tools.
 You can compile it with the following command:
 
-acts.exe gscc -g bo6_6 -p pca script.gsc
+Compile : acts.exe gscc script.gsc -g bo6_6 -p pca --name "scripts/mp/art.gsc"
+Inject : ps4repbo6 192.168.Your.IPAddress:9090 script.gscc
